@@ -6,8 +6,10 @@ import com.esamparka.baseitem.model.BaseItem;
 
 public interface BaseItemMapper<T, D> {
 
-    public D getDto(T item);
-    public T getEntity(D itemDto);
-    public D getDto(ItemInfoDto item);
+    /*
+     *public D getDto(T item);
+     *public T getEntity(D itemDto);
+     *public D getDto(ItemInfoDto item);
+     */
 
 }
