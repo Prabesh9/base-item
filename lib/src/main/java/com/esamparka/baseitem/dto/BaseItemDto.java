@@ -1,19 +1,15 @@
 package com.esamparka.baseitem.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.experimental.SuperBuilder;
-
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 
-@Getter
-@Setter
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@SuperBuilder
 public class BaseItemDto {
 
         @NotNull
