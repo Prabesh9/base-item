@@ -8,12 +8,12 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import com.esamparka.baseitem.dto.BaseItemDto;
-import com.esamparka.baseitem.exception.IdMismatchException;
-import com.esamparka.baseitem.exception.ItemNotFoundException;
 import com.esamparka.baseitem.model.BaseItem;
 import com.esamparka.baseitem.repository.BaseItemRepository;
 import com.esamparka.baseitem.service.BaseItemService;
 import com.esamparka.baseitem.service.mapper.BaseItemMapper;
+import com.esamparka.exceptions.IdMismatchException;
+import com.esamparka.exceptions.ItemNotFoundException;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
